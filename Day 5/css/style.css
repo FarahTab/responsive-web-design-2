@@ -1,0 +1,142 @@
+body{
+    background-color: gray;
+}
+
+.header{
+    height: 50px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    background-color: plum;
+}
+
+.menu{
+    height:50px;
+    width: 95%;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: left;
+    float:left;
+}
+
+.menu ul li{
+    padding: 20px 40px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+.menu ul a:hover{
+    color: blueviolet;
+    background-color: gold;
+}
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li .active{
+    color: blue;
+}
+
+
+input{
+    float:right;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.main{
+    height:700px;
+    width:100%;
+    
+}
+.section{
+    width:70%;
+    height:400px;
+    margin: 10px;
+    float:left;
+}
+
+.article{
+    background-color: beige;
+    margin-bottom: 10px;
+    height: 400px;
+}
+
+.gall{
+    height: 150px;
+}
+
+.partOne{
+    width:25%;
+    height: 100px;
+    background-color: aqua;
+    float:left;
+}
+
+.partTwo{
+    width:25%;
+    height: 100px;
+    float:left;
+    background-color: hotpink;
+}
+
+.partThree{
+    width:25%;
+    height: 100px;
+    float:left;
+    background-color: yellow;
+}
+
+.partFour{
+    width:25%;
+    height: 100px;
+    float:left;
+    background-color: aqua;
+}
+
+.related{
+    width:25.75%;
+    height: 625px;
+    float:left;
+    background-color: plum;
+}
+
+.related ul{
+    
+    text-align: left;
+    float:left;
+}
+
+.related ul li{
+    padding: 10px 20px;
+}
+.related ul a{
+    
+    color: blueviolet;
+    padding: 10px 5px;
+    font-size: 15px;
+}
+.related ul a:hover{
+    color: blueviolet;
+    background-color: gold;
+}
+.related ul li{
+    
+}
+
+.related ul li .active{
+    color: blue;
+}
+
+@font-face{
+    font-family: myfont;
+    src: url("../fonts/Black Melody - Personal Use.otf");
+}
