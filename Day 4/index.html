@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   <form action="result.html" method="get">
+    <div class="container">
+        <div class="top">
+            <div class="left">
+                <label for="name"></label>
+        <input type="text" name="name" id="name" required placeholder="Name">
+        <br><br>
+           <label for="email"></label>
+        <input type="email" name="email" id="email" required placeholder="Email">
+        <br><br>
+           <label for="phone"></label>
+        <input type="text" name="phone" id="phone" required placeholder="Phone">
+        <br><br>
+        <textarea cols="100" rows="4" name="textarea" placeholder="Special notes, concerns, or requirements">
+            
+        </textarea>
+        <br><br>
+            </div>
+            <div class="right">
+                <p><b>What is the best way to reach you?</b></p>
+        <input type="radio" name="reach" id="reach" value="phone">Phone
+        <br><br>
+        <input type="radio" name="reach" id="reach" value="email">Email
+        <br><br>
+         
+                <p><b>Days of the week you are available for appointment</b></p> 
+        <input type="checkbox" name="day" id="day" value="Monday">Monday
+        <br>
+        <input type="checkbox" name="day" id="day" value="Tuesday">Tuesday
+        <br>
+        <input type="checkbox" name="day" id="day" value="Wednesday">Wednesday
+        <br>
+        <input type="checkbox" name="day" id="day" value="Thursday">Thursday
+        <br>
+        <input type="checkbox" name="day" id="day" value="Friday">Friday
+        <br><br>
+           
+                <p><b>Best time of day for your appointment</b></p>
+           <input type="checkbox" name="time" id="time" value="Morning">Morning
+        <br>
+        <input type="checkbox" name="time" id="time" value="Afternoon">Afternoon
+        
+            </div>
+        </div>
+        <div class="bottom">
+        <hr>
+        <button type="submit">Request my appointment</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
