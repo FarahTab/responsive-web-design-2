@@ -1,0 +1,66 @@
+.tr{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+/*    transition: transform 3s;*/
+    position: relative;
+    animation: newAnimation 10s infinite;
+/*    animation-direction: alternate;*/
+    
+}
+/*
+.tr:hover{
+    width: 600px;
+    height: 300px;
+    transform: scale(.5,2);
+    transform: rotateY(180deg);
+    transform: skewX(30deg);
+    transform: translate(200px, 100px);
+}
+*/
+
+@keyframes newAnimation{
+/*
+    from{
+        top: 0px; 
+        background-color: black;
+    }
+    to{
+        top: 200px; 
+        background-color: red;
+        border-radius: 50%;
+    }
+*/
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: black;
+    }
+    25%{
+        top: 0px;
+        left: 400px;
+        background-color: orangered;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background-color: blue;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background-color: green;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: black;
+    }
+}
+
+
+
+
+
+
+
